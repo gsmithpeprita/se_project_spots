@@ -4,7 +4,7 @@ A site for users to share images and captions of the different places they have 
 
 ### Overview
 
-Used a combination of flex-box, grids, and media querys to provide multiple layouts.
+Used a combination of flex-box, grids, and media querys to provide multiple layouts for different sized screens.
 
 **Intro**
 
@@ -15,5 +15,3 @@ Used a combination of flex-box, grids, and media querys to provide multiple layo
 **Images**
 
 The way you'll do this at work is by exporting images directly from Figma — we recommend doing that to practice more. Don't forget to optimize them [here](https://tinypng.com/), so your project loads faster.
-
-Good luck and have fun!
