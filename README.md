@@ -4,7 +4,7 @@ A site for users to share images and captions of the different places they have 
 
 ### Overview
 
-Used a combination of flex-box, grids
+Used a combination of flex-box, grids, and media querys to provide multiple layouts.
 
 **Intro**
 
