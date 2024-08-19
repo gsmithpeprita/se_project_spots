@@ -19,3 +19,5 @@ Used a combination of flex-box, grids, and media querys to provide multiple layo
 **Images**
 
 The way you'll do this at work is by exporting images directly from Figma — we recommend doing that to practice more. Don't forget to optimize them [here](https://tinypng.com/), so your project loads faster.
+![Screenshot cards](https://github.com/user-attachments/assets/2c1d2c1b-4812-420e-9411-4436593d0a90)
+![Screenshot phone](https://github.com/user-attachments/assets/1a00da53-7002-4b64-8519-58acf569614c)
