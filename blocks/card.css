@@ -55,8 +55,10 @@
   .card__title {
     font-size: 16px;
     line-height: 16px;
-    display: flex;
-    align-items: end;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    width: 95px;
   }
 
   .card__image {

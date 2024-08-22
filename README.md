@@ -16,6 +16,8 @@ Used a combination of flex-box, grids, and media querys to provide multiple layo
 
 - [Link to the project on GitHub](https://gsmithpeprita.github.io/se_project_spots/)
 
-**Images**
+**Video Explanation**
 
-The way you'll do this at work is by exporting images directly from Figma — we recommend doing that to practice more. Don't forget to optimize them [here](https://tinypng.com/), so your project loads faster.
+-[Link to the video on Google Drive](https://drive.google.com/drive/folders/1xjayiFSirmBYaG1oD-eU5i43jdUWJNNW?usp=sharing)
+
+**Images**
