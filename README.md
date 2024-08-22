@@ -18,6 +18,12 @@ Used a combination of flex-box, grids, and media querys to provide multiple layo
 
 **Video Explanation**
 
--[Link to the video on Google Drive](https://drive.google.com/drive/folders/1xjayiFSirmBYaG1oD-eU5i43jdUWJNNW?usp=sharing)
+<<<<<<< HEAD -[Link to the video on Google Drive](https://drive.google.com/drive/folders/1xjayiFSirmBYaG1oD-eU5i43jdUWJNNW?usp=sharing)
 
-**Images**
+# **Images**
+
+![Screenshot cards](https://github.com/user-attachments/assets/2c1d2c1b-4812-420e-9411-4436593d0a90)
+![Screenshot phone](https://github.com/user-attachments/assets/1a00da53-7002-4b64-8519-58acf569614c)
+![Screenshot header](https://github.com/user-attachments/assets/68d47a20-6c31-4b2d-8ba4-373bf3d8038d)
+
+> > > > > > > ce2d9f2fb8f91961c40c5cd0db9d0d761f6a2940
