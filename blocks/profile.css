@@ -24,7 +24,6 @@
   font-weight: 500;
   font-size: 32px;
   line-height: 1;
-  width: 420px;
   font-family: Poppins, Arial, Helvetica, sans-serif;
   text-overflow: ellipsis;
   overflow: hidden;
@@ -111,6 +110,7 @@
   background-image: url(../images/plus.svg);
   padding-right: 8px;
   background-repeat: no-repeat;
+  padding-bottom: 3px;
 }
 
 .profile__add-btn:hover {
