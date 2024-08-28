@@ -74,7 +74,6 @@
   width: 16px;
   height: 16px;
   background-image: url(../images/pencil.svg);
-  opacity: 70%;
 }
 
 .profile__edit-btn:hover {
@@ -142,7 +141,6 @@
 
   .profile__description {
     margin: 0 0 32px;
-    font-size: 16px;
   }
 
   .profile__column {
@@ -153,7 +151,6 @@
   .profile__add-btn {
     margin: 0;
     width: 288px;
-    height: 52px;
   }
 
   .profile__edit-btn {
