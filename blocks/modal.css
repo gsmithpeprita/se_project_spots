@@ -38,8 +38,7 @@
   margin: auto auto auto 0;
   padding: 4px 8px;
   background-color: #212121;
-  margin-top: 12px;
-  padding-left: 7px;
+  margin-top: 8px;
   border-radius: 8px;
 }
 
@@ -119,7 +118,6 @@
   cursor: pointer;
   border: 1px solid #212121;
   opacity: 100%;
-
   border-radius: 8px;
 }
 
@@ -150,8 +148,8 @@
   }
 
   .modal__close-btn {
-    top: -40px;
     right: 12px;
+    top: -52.57px;
   }
 
   .modal__label {
@@ -166,14 +164,10 @@
   }
 }
 
-@media screen and (max-width: 0px) {
+@media screen and (max-width: 330px) {
   .modal__caption {
     margin-top: 8px;
     font-size: 16px;
     padding-left: 8px;
-  }
-
-  .modal__caption {
-    right: -52.57px;
   }
 }
