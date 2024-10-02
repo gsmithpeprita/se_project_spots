@@ -150,7 +150,7 @@
   }
 
   .modal__close-btn {
-    top: 12px;
+    top: -40px;
     right: 12px;
   }
 
@@ -166,8 +166,14 @@
   }
 }
 
-@media screen and (max-width: 330px) {
+@media screen and (max-width: 0px) {
   .modal__caption {
     margin-top: 8px;
+    font-size: 16px;
+    padding-left: 8px;
+  }
+
+  .modal__caption {
+    right: -52.57px;
   }
 }

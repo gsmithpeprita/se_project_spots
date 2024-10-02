@@ -81,6 +81,7 @@ function handleAddCardSubmit(evt) {
   const cardElement = getCardElement(inputValues);
   cardsList.prepend(cardElement);
   closeModal(cardModal);
+  cardForm.reset();
 }
 
 function getCardElement(data) {
@@ -95,7 +96,7 @@ function getCardElement(data) {
 
   cardNameElement.textContent = data.name;
   cardImageElement.src = data.link;
-  cardImageElement.name = data.name;
+  cardImageElement.alt = data.name;
 
   if (data.image) {
     cardImageElement.src = data.image;
