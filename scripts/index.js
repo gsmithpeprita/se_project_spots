@@ -163,3 +163,15 @@ function handleEscapeKey(evt) {
 }
 
 document.addEventListener("keydown", handleEscapeKey);
+
+function handleOverlayClick(evt) {
+  if (evt.target.classList.contains("modal_opened")) {
+    closeModal(evt.target);
+  }
+}
+
+const modals = document.querySelectorAll(".modal");
+
+modals.forEach((modal) => {
+  modal.addEventListener("mousedown", handleOverlayClick);
+});
