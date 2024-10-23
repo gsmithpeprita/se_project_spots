@@ -131,6 +131,7 @@ editModalCloseBtn.addEventListener("click", () => {
 });
 
 cardModalBtn.addEventListener("click", () => {
+  resetValidation(cardForm, [cardLinkInput, cardNameInput], settings);
   openModal(cardModal);
 });
 
@@ -151,3 +152,14 @@ const previewModalCloseBtn = previewModal.querySelector(".modal__close-btn");
 previewModalCloseBtn.addEventListener("click", () => {
   closeModal(previewModal);
 });
+
+function handleEscapeKey(evt) {
+  if (evt.key === "Escape") {
+    const openModal = document.querySelector(".modal_opened");
+    if (openModal) {
+      closeModal(openModal);
+    }
+  }
+}
+
+document.addEventListener("keydown", handleEscapeKey);

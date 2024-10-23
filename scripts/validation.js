@@ -1,8 +1,8 @@
 const settings = {
-  formSelector: ".modal__container",
+  formSelector: ".modal__form",
   inputSelector: ".modal__input",
   submitButtonSelector: ".modal__submit-btn",
-  inactiveButtonClass: "modal__submit-button_type_submit",
+  inactiveButtonClass: "modal__submit-btn_type_submit",
   inputErrorClass: "modal__input_type_error",
   errorClass: "modal__error",
 };
@@ -65,6 +65,12 @@ const enableValidation = (config) => {
   const formList = document.querySelectorAll(config.formSelector);
   formList.forEach((formEl) => {
     setEventListeners(formEl, config);
+  });
+};
+
+const resetValidation = (formEl, inputList, config) => {
+  inputList.forEach((input) => {
+    hideInputError(formEl, input, config);
   });
 };
 
