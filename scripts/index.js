@@ -138,7 +138,6 @@ editModalCloseBtn.addEventListener("click", () => {
 });
 
 cardModalBtn.addEventListener("click", () => {
-  resetValidation(cardForm, [cardLinkInput, cardNameInput], settings);
   openModal(cardModal);
 });
 
@@ -168,8 +167,6 @@ function handleEscapeKey(evt) {
     }
   }
 }
-
-document.addEventListener("keydown", handleEscapeKey);
 
 function handleOverlayClick(evt) {
   if (evt.target.classList.contains("modal_opened")) {
